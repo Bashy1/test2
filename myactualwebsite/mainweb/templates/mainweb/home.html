@@ -1,0 +1,344 @@
+{% extends 'mainweb/base.html' %}
+{% load static %}
+{% block body_block %}
+
+
+
+<!-- First section - "about me" -->
+<section id="about_me">
+<div class="content container showcase-bottom">
+  <div class="row">
+    <div id= "info" class="col-md-6 container">
+      <img id="icon_image" src="{% static 'images/hand_shake.png' %}">
+      <h3>About Us</h3>
+      <p>Here at SBC our goal is to make your cloud journey as low fuss as possible. We aim to ensure that our solutions achieve key business needs around: <b>service resliency</b>, <b>ease of use</b> and <b>cost</b>. We use strong relationships with all the main UK carriers and best of breed vendors in order to ensure the highest quality of service to our customers.
+      </p>
+<!-- Read more menus -->
+      <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Learn more about our values
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        SBC is committed to enabling digital transformation for you and your business. Priding itself on honesty, customers can expect clear and cogent responses to their questions. There is a fundamental beleive that trust and transparency through all aspects of the relationship are key to mutual growth and collective success. We never over-complicate the solutions and always strive to be easy to work with.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Learn more about our service infrastructure
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        All of our services are delivered via interconnects with tier 1 carrier networks and key vendor peering agreements so that we can provide tangible end-to-end solution delivery. Resiliency is built in at the application layer and into the core network architecture. <p><b><h6>What does this mean for our customers?</h6></b></p>  The output will vary depending on your own desired business outcomes and the solution that is delivered. At its most base level it means that our service uptime is carrier grade, and even in the event of a disaster scenario at our customer premises, key cloud services can continue to run and remain accessible for all - minimising any disruption to you and your business. Using access to all the main carriers also allows SBC to be carrier agnostic, choosing whichever one fits the bill the best in any given scenario.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Solutions Approach
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+      <p>SBC strives to put the solution first, and work backwards towards the most suitable vendor relationships. Whether for use of BT's hosted centrex, SlverPeak's SD-WAN or Wavenet's Microsoft TeamsLink platform. </p>
+      <p>As part of working with us, you will be actively involved in helping steer the solution's direction through mutual communication and will become viewed not just as a customer but a business partner. This strategic relationship is a fundamental part of ensuring that SBC takes on the companies which we can work best. </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-default collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Commercials
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+      <p>SBC's  contracts are all on 12 month terms for customers. Pricing will be outlined alongside any solutions discussions and, in fitting with principles of transparency only include an 8% mark-up over costs. This is to strengthen customer trust and ensures that we are able to deliver the best possible prices for solutions sold. </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- first Row second and 3rd columns -->
+
+    <div class="col-md-1"></div>
+    <div id="info" class="col-md-5 container">
+      <img id="icon_image_large" src="{% static 'images/my_pic2.jpg' %}">
+        <p><img id="icon_image" src="{% static 'images/deal_icon.png' %}"> </p>
+      <h4>Matthew Godden</h4><p>- Business Development Manager </p>
+      <p> <b>Matthew</b> leads our sales pipeline and shares insights with new and existing customers around platform features and solution design. With a background in CCaaS integrations working alongside Vodafone, Matthew understands the challenges facing many modernising organisations.
+      </p>
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<!--paralax -->
+
+<hr></hr>
+<div id="paralax_image">
+<div class="paralax"></div>
+</div>
+
+<div id="hosted-voice-banner-padding" class="showcase-bottom">
+<div id ="hosted-voice-banner" class="content">
+  <div class="container">
+  <h1>Our Solutions </h1>
+</div>
+
+</div>
+</div>
+<hr></hr>
+
+
+<section id="UnifiedComms">
+    <div class="showcase-bottom banner-break">
+      <div class="banner-content">
+          <h2><img id="icon_image" src="{% static 'images/cloud_icon.png' %}" class="banner-icon"> - Telephone Systems -   <img id="icon_image" src="{% static 'images/cloud_icon.png' %}" class="banner-icon"></h2>
+      </div>
+    </div>
+
+</section>
+
+
+<!-- UC invite to read flyer !!! Add in "popovers for learning content" -->
+
+<div id="hostmyballs">
+    <div class="content container">
+  <div class="row content container">
+    <div id="info" class= "col-md-6 container showcase-left">
+      <!-- image of headset_icon -->
+      <img id="icon_image" src="{% static 'images/test_headset_icon.svg' %}">
+
+  <h6>Unified Communications through telephony hosting</h6>
+  <p> True blue sky thinking means opening up to new possibilities and different ways of working. SBC have solutions to fit with any size of organisation, from 1 user to 10,000. No business is too small or too large for enterprise level communications to be at their fingertips.
+   </p>
+
+<!-- Buttons for popovers -->
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is 'Hosted Voice'?" data-content="Hosted voice means using cloud technologies to manage and provide voice services. This lowers the costs of service from conventional on-premise systems and can use existing connectivity infrastructure, or direct the traffic over the PSTN or GSM networks for easy remote working. SBC's preferred solutions are multi-tenanted, meaning that each customer is logically partitioned in order to maintain secure and reliable communications while sharing the same core infrastructure as thousands of other businesses.">Hosted Voice</a>
+
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why 'Unified Communications'?" data-content="Unified Communications means integrating key internal and external communications platforms together to drive efficiency, ease of management and cultural change. Use presence, web chat and video conferencing together with integrations with Outlook and CRM systems to keep things simple.">Unified Communications</a>
+
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why WHC3?" data-content="WHC3 is BT's own hosted centrex solution. Built on Broadsoft software, it is a preferred fit for thousands of companies across the world. It has built in advanced configuration, Disaster Recovery and mobile application to make and receive calls from anywehere. SBC uses additional bolt-on licences to enhance reporting features and Computer Telephony Integrations (CTI)">WHC3</a>
+
+<div id = "hosted-button-contact">   <a id = "hosted-button" class="btn btn-outline-secondary contact-button" href="#engage" role="button">Contact Us</a></div>
+</div>
+
+
+
+
+<div id="info"  class= "col-md-6 container showcase-right">
+
+  <!-- image of headset_icon -->
+  <img id="icon_image" src="{% static 'images/test_headset_icon.svg' %}">
+
+
+
+  <h6>Microsoft Teams Direct Routing</h6>
+  <p> If your business uses Microsoft office 365 and knows that the Teams client is capable of becoming your hosted VOIP solution, SBC is able to offer additional functionality and easy management tools to go with it. Unify your Teams client with external calling capabilities, simplify billing as well as support needs.
+   </p>
+
+   <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is 'Direct Routing'?" data-content="Microsoft Teams Direct Routing means using a telecommunications provider to connect up to your Teams client so that your call traffic is handled by a company experienced in managing phone systems and is able to simplify billing. Our preferred solution allows for 'layering' above the Teams client, meaning that you do not need to have an on premise PBX but rather the additional functionality may be added at the network level.">Direct Routing</a>
+
+   <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why TeamsLink?" data-content="TeamsLink acts as a cloud hosted PBX which is layered above Teams. It has more comprehensive features than Microsoft's own Calling Plans, including contact centre (ACD) functionality and reporting suite.">TeamsLink</a>
+
+<div id = "hosted-button-contact">   <a id = "hosted-button" class="btn btn-outline-secondary contact-button" href="#engage" role="button">Contact Us</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<hr></hr>
+
+<!-- insert banner for connectivity -->
+<section id="Connectivity"></section>
+    <div class="showcase-bottom banner-break">
+      <div class="banner-content">
+          <h2><img id="icon_image" src="{% static 'images/ethernet.png' %}" class="banner-icon"> - Business Connectivity -   <img id="icon_image" src="{% static 'images/connection.png' %}" class="banner-icon"></h2>
+      </div>
+    </div>
+
+
+
+<!-- Connectivity flyer -->
+<!--  -->
+
+<div id="info">
+    <div class="content container">
+  <div class="row container">
+    <div id="info" class= "col-lg-6 col-md-6 container showcase-left">
+      <!-- image of headset_icon -->
+      <img id="icon_image" src="{% static 'images/connection.png' %}">
+
+  <h6>Contended Connectivity</h6>
+  <p> If your business needs simple, low bandwidth connectivity, contended business internet solutions may achieve this through well established, low cost value technologies. These solutions mirror home broadband connections with a business level service wrap.
+   </p>
+
+<!-- Buttons for popovers -->
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why use contended?" data-content="Contended connectivity means that your business is sharing the bandwidth running back to the Internet Service Provider's (ISP) core network. This means that in peak times, the bandwidth will drop and fluctuate. This nonetheless offers a cheap and fast fit for thousands of businesses across the UK.">Contended</a>
+
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is ADSL2+" data-content="ADSL2+ is a historic, copper driven technology that is used by businesses where the fibre networks have not yet reached. It stands for Asymetric Digital Subscriber Line. Download and upload speeds will be different, and both will be limited by the use of copper over such long distances.">ADSL2+</a>
+
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is FTTC" data-content="FTTC is a fibre driven technology meaning 'Fibre To The Cabinet'. Only the distance between the business site and the local cabinet is running over copper cabling. Everything back from the cabinet towards the ISP's core network is running over much faster, fibre optic lines. This allows for significantly improved bandwidth to run core applications.">FTTC</a>
+
+
+<a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is FTTP" data-content="FTTP means 'Fibre To The Premises'. Only Fibre is therefore used to connect your business to core internet services. This allows for significantly improved speeds from FTTC which makes it a cheap but relatively high-capacity solution. A key dependency for this is Fibre being available within the area, which we are able to check for you.">FTTP</a>
+
+
+<div id = "hosted-button-contact">   <a id = "hosted-button" class="btn btn-outline-secondary contact-button" href="#engage" role="button">Contact Us</a></div>
+</div>
+
+
+
+
+<div id="info"  class= "col-lg-6 col-md-6 container showcase-right">
+
+  <!-- image of headset_icon -->
+  <img id="icon_image" src="{% static 'images/ethernet.png' %}">
+
+  <h6>Uncontended Connectivity</h6>
+  <p> If your company plans to increase bandwidth capacity or achieve more consistency, SCB's uncondended solutions may help you achieve this. With BT closing the ISDN network, dedicated, uncontended internet ensures your business has the ability to migrate to VOIP and other cloud technologies.
+   </p>
+
+   <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why use uncontended?" data-content="Uncontended connectivity means that you have dedicated internet access. You can decide what bandwidth you would like, and it will remain constant at all times. Upload and download speeds will be fixed and equal so capacity planning is easy. There are a range of options to help achieve stable, high capacity connections.">Uncontended</a>
+
+   <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is EFM" data-content="EFM, or 'Ethernet First Mile', uses dedicated copper cable pairs for the entire service. This guarantees a fixed bandwidth and comes with SLAs to match. This is logically only available for companies within 1 mile of the local exchange however, as with EFM offers a cheap dedicated connection.">EFM</a>
+
+   <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What is EoFTTC" data-content="Ethernet over Fibre To The Cabinet, EoFTTC is the dedicated alternative of its contended technological sibling, FTTC. Fibre is the core mechanism for data transfer which allows it to fit with businesses looking for more scalable connectivity however as the 'last mile' is copper to the site, bandwidth capacity is still restricted.    ">EoFTTC</a>
+
+
+   <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="What are Leased Lines?" data-content="Leased Lines are core didicated connections to businesses that want to ensure they have consistent, high availability, and scalable connectivity. Leased line bandwidth can range on customer choice from 10Mb to 10Gb speeds. A solution preferred by most businesses who are serious about their infrastrucure and cloud migration strategies">Leased Lines</a>
+
+<div id = "hosted-button-contact">   <a id = "hosted-button" class="btn btn-outline-secondary contact-button" href="#engage" role="button">Contact Us</a></div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- insert banner for features-->
+
+<section id="Mobile"></section>
+<!-- Connectivity
+ -->
+ <div id="hostmyballs">
+   <div class="row">
+       <div class="content container">
+     <div id="hosted_balls1" class= "col-lg-3 col-md-3 container showcase-left"></div>
+     <div id="info" class= "col-lg-6 col-md-6 container showcase-bottom">
+       <!-- image of headset_icon -->
+       <img id="icon_image" src="{% static 'images/layers.png' %}">
+
+   <h6>Over The Top Solutions</h6>
+   <p> Respective of the end delivery mechanism, whether ADSL2+ or a 10Gb Leased line, SBC have a number of features that can be added at the network level to help achieve efficiencies.
+    </p>
+
+ <!-- Buttons for popovers -->
+ <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why use a Hosted Firewall" data-content="Firewalls offer a security filter to shield your systems from maliscious cyber attacks. Hosting the firewall is an easy way to ensure that this is in place across your business estate, without having complex on-premise equipment to manage.">Hosted Firewall</a>
+
+ <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why use MPLS?" data-content="MPLS is an enterprise hybrid technology that allows for all connected sites to co-exist within the same network environment, effectively creating a large secure LAN network which is able to sit behind a single firewall. It also allows for cheap and fast internal connections.">MPLS</a>
+
+ <a id = "hosted-button" tabindex="0" class="btn btn-outline-secondary" role="button" data-toggle="popover" data-trigger="focus" title="Why use SD-WAN?" data-content="Similar to MPLS, SD-WAN also maximises application performance by constantly evaluating the best traffic pathways over the internet. Business critical applications such as VOIP can have their bandwidth secured, while others may be deprioritised during peak times, eg Facebook, always ensuring continuity.">SD-WAN</a>
+
+
+ <div id = "hosted-button-contact">   <a id = "hosted-button" class="btn btn-outline-secondary contact-button" href="#engage" role="button">Contact Us</a></div>
+ </div>
+ <div id="hosted_balls1" class= "col-lg-3 col-md-3 container showcase-left"></div>
+</div>
+</div>
+</div>
+
+
+<hr></hr>
+<!--business mobile -->
+<div  class="showcase-bottom banner-break">
+  <div class="container banner-content">
+  <h2><img id="icon_image" src="{% static 'images/iphone.png' %}"> - Business Mobile - <img id="icon_image" src="{% static 'images/iphone.png' %}"> </h2>
+</div>
+</div>
+
+<div class="content container">
+  <div class="row">
+    <div id="hosted_balls1" class= "col-lg-3 col-md-3 container showcase-left"></div>
+    <div id="info" class= "col-lg-6 col-md-6 container showcase-bottom">
+      <!-- image of headset_icon -->
+      <img id="icon_image" src="{% static 'images/phone.png' %}">
+
+  <h6>Business Mobile</h6>
+  <p> With access to EE, Vodafone and O2 networks, SBC has simple SIM only contracts to fit your needs. Take advantage of voice and use mobiles alongside our UC offerings for easy, on the go communications.
+  </p>
+
+<!-- Buttons for popovers -->
+
+
+<div id = "hosted-button-contact">   <a id = "hosted-button" class="btn btn-outline-secondary contact-button" href="#engage" role="button">Contact Us</a></div>
+</div>
+<div id="hosted_balls1" class= "col-lg-3 col-md-3 container showcase-left"></div>
+</div>
+</div>
+
+<hr></hr>
+
+<section class="gooey_area">
+    <div class="gooey">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+</section>
+
+<hr>
+
+
+<!-- animation area-->
+<section id="engage">
+    <div class="container">
+      <div class="jumbotron">
+          <h1>Contact Us</h1>
+        <form method = "POST">
+
+        {{ form.as_p }}
+        {% csrf_token %}
+        <button formaction=" {% url 'mainweb:thankyoupage' %} "  type="submit" class = "btn btn-primary" value="submit" %} ">Submit</button>
+
+        </form>
+        <div id="small_print">
+            <p>***We will not share your information with anyone without your explicit say-so. By clicking "submit", you can expect to be contacted by SBC.</p>
+        </div>
+      </div>
+    </div>
+</section>
+<hr>
+<!--button for help4heroes-->
+<!--<a class="btn btn-primary" href="https://www.helpforheroes.org.uk/?gclid=CjwKCAjw_LL2BRAkEiwAv2Y3SaLdO3AMzIJa-fKk4DVCKTM7_l6fMpI37WKkSty_5hFBPtWF5JE_hRoCLAAQAvD_BwE">Donate</a>-->
+
+
+{% endblock  %}

@@ -1,0 +1,276 @@
+{% load static %}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.carouselz_1 {
+  height: 180px;
+  background-image: linear-gradient(to bottom, #BF98A0,  #312F2F);
+    background-size: cover;
+  background-attachment: fixed;
+}
+
+.carouselz_2 {
+  height: 180px;
+  background-image: linear-gradient(to top, #312F2F, #BCCCE0);
+ background-size: cover;
+  background-attachment: fixed;
+}
+
+.carouselz_3 {
+  height: 180px;
+  background-image: linear-gradient(to top, #A6D9F7, #BF98A0);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#info {
+text-align: center;
+padding-top: 20px;}
+
+#icon_image {
+  max-width: 40px;
+  max-height: auto;
+  align: center;
+  padding-bottom: 20px;
+}
+
+#icon_image_large {
+  max-width: 170px;
+  max-height: auto;
+  align: center;
+  padding-bottom: 20px;
+}
+
+.paralax {
+  background: url('/static/images/water_clear.jpg' ) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 220px
+}
+
+
+
+#paralax_image {
+  padding-top: 50px;
+}
+
+
+#hosted-voice-banner {
+
+  background-color: #f8f9fa!important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: solid;
+  border-color: #DAEAFE;
+}
+#hosted-voice-banner-padding {
+  padding-top: 10px;
+}
+
+.banner-text {
+: 1em;}
+
+.banner-break {
+  height: 170px;
+  background-image: linear-gradient(to top, #97EE92, #f8f9fa, #f8f9fa, #007bff);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner-content {
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+.banner-left {
+  height: 8%;
+  width: 30%;
+  background-image: linear-gradient(to top, #FFAA50, #f8f9fa, #f8f9fa, #007bff);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+.banner-text {
+width: 100%;
+position: absolute;
+
+}
+
+.banner-text ul{
+
+height: 50px;
+float: right;
+}
+
+.banner-text ul li{
+display: inline-block;
+padding: 40px 15px;
+text-transform: uppercase;
+color: #fff;
+font-size: 20px;
+}
+
+.banner-text h2{
+text-align: center;
+color: #fff;
+margin-top: 100px;
+}
+
+
+
+.animation-area {
+
+
+background: linear-gradient(to left, #84DCCF, #A6D9F7);
+
+height: 30vh;
+width: 100%;
+}
+
+
+
+.box-area {
+position: absolute;
+top: 0;
+left:0;
+width:100%;
+height:100%;
+overflow: hidden;
+bottom: -150px;
+}
+
+
+.box-area li{
+position: absolute;
+display: block;
+list-style: none;
+width: 25px;
+height: 25px;
+background: rgba(255,255,255,0.3);
+animation: animate 20s linear infinite;
+top: 400px;}
+
+
+
+
+
+.box-area li:nth-child(1){
+left: 86%;
+width: 80px;
+height: 80px;
+animation-delay: 0s;
+}
+
+.box-area li:nth-child(2){
+left: 12%;
+width: 30px;
+height: 30px;
+animation-delay: 1.5s;
+animation-duration:10s;}
+
+.box-area li:nth-child(3){
+left: 70%;
+width: 100px;
+height: 100px;
+animation-delay: 5.5s;
+}
+
+
+.box-area li:nth-child(4){
+left: 42%;
+width: 150px;
+height: 150px;
+animation-delay: 5.5s;
+animation-duration: 15s;
+}
+
+.box-area li:nth-child(5){
+left: 65%;
+width: 40px;
+height: 40px;
+animation-delay: 0s;
+}
+
+.box-area li:nth-child(6){
+left: 15%;
+width: 110px;
+height: 110px;
+animation-delay:3.5s;
+}
+
+@keyframes animate{
+0%{
+transform: translateY(0) rotate(0deg);
+opacity: 1;
+}
+100%{
+transform: translateY(-800px) rotate(360deg);
+opacity: 0;
+}
+}
+
+
+
+.gooey_area {
+height: 7vh;
+width: 100%;
+background: #eee;
+display: flex;
+align-items: center;
+justify-content: center;
+filter: contrast(7);
+overflow: hidden;}
+
+.gooey span {
+width: 1000px;
+height: 1000px;
+display: inline-block;
+border-radius: 50%;
+background: #007bff;
+filter: blur(10px);
+animation: gooey_animation 7s ease-in-out infinite;}
+
+@keyframes gooey_animation
+{
+0%,100%
+{margin: 15px;
+height: 60px;
+width: 60px;}
+
+50%
+{margin: -30px;
+height: 60px;
+width: 60px;}
+}
+
+
+.form {
+justify-content: center;}
+
+.jumbotron {
+justify-content: center;
+text-align: center;
+background: #eee !important;}
+
+#small_print {
+font-size: .7rem;
+padding-top: 20px;}
+
+.jumbotron h1 {
+font-size: 2.4rem;
+padding-bottom: 17px;
+text-transform: uppercase;
+color: #131313;
+text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272,
+-2px 4px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
+ -6px 12px 1px #828181, -7px 14px 1px #868585;
+}
